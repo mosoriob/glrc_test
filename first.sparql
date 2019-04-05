@@ -14,6 +14,6 @@ CONSTRUCT {?s ?o ?p }
 WHERE { 
   GRAPH <?_graph> {
     ?s a mc:DatasetSpecification .
-    ?s ?o ?p
+    ?s ?o ?p_graph
   }
 }
